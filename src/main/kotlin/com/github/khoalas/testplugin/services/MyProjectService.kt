@@ -12,7 +12,6 @@ class MyProjectService(project : Project){
 
     init {
         project.messageBus.connect().subscribe(XDebuggerManager.TOPIC, object : XDebuggerManagerListener {
-            @Override
             override fun processStarted(@NotNull debugProcess: XDebugProcess) {
                 println("started")
                 attachDebugListener(debugProcess)
