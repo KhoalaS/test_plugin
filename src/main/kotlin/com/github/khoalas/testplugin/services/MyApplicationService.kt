@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.khoalas.testplugin.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.khoalas.testplugin.MyBundle
 
 class MyApplicationService {
 
